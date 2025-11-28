@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "/opt/homebrew/Caskroom/miniconda/base/envs/py311_gb25MCP_01/bin/python",
+      "args": [
+        "/path/to/gd25-mcp-tool/mcp-tool/pg-tool/server.py"
+      ],
+      "env": {
+        "DATABASE_URL": "postgresql://user:password@localhost:5432/database",
+        "DANGEROUSLY_ALLOW_WRITE_OPS": "false"
+      }
+    }
+  }
+}
+

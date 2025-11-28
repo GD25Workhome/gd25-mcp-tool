@@ -1,0 +1,17 @@
+# MCP PostgreSQL 工具依赖
+
+# MCP Python SDK
+# 注意：MCP Python SDK 可能还在开发中
+# 如果包名不同，请根据实际情况调整
+# 可能的包名：mcp, modelcontextprotocol, mcp-python
+mcp>=0.9.0,<1.0.0
+
+# PostgreSQL 数据库连接
+psycopg2-binary>=2.9.0,<3.0.0
+
+# Schema 验证和类型检查
+pydantic>=2.0.0,<3.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0,<2.0.0
+
