@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "/opt/homebrew/Caskroom/miniconda/base/envs/py311_gb25MCP_01/bin/python",
+      "args": [
+        "/path/to/gd25-mcp-tool/mcp-tool/github-tool/server.py"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "your_github_token_here",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
+

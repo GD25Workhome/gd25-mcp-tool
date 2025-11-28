@@ -1,2 +1,16 @@
 # Python 缓存文件
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量文件（包含敏感信息）
+.env
+.env.local
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
